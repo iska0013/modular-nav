@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,6 +31,7 @@ h1 {
 
 nav {
   text-align: center;
+  color: #0074d9;
 }
 
 a {
