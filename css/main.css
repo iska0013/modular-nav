@@ -24,6 +24,10 @@ h1 {
   text-align: center;
 }
 
+nav {
+  text-align: center;
+}
+
 a {
     text-decoration: none;
     color: #e2e2e2;
@@ -34,7 +38,6 @@ a:hover {
 }
 
 nav li {
-
   display: inline-block;
 }
 .pink {
@@ -44,14 +47,12 @@ nav li {
   background-color: purple;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
+ h1 {
+   text-align: left;
+ }
 
-}
-
-@media only screen and (min-width: 60em){
-
-}
-
-@media only screen and (min-width: 90em) {
-
+  nav {
+    text-align: right;
+  }
 }
